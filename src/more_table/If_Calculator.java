@@ -20,7 +20,7 @@ public class If_Calculator {
 		System.out.println("Enter your your operation, +,-,*,/");
 		String operation = input.next();
 		
-		//Test input
+		//Test input / calculations
 		double total = 0;
 	
 		if (operation.equals("+") ) {
@@ -41,8 +41,6 @@ public class If_Calculator {
 		else {
 			System.out.println("Incorrect, doofus");
 		}
-		// Do calculations
-		
 		
 		//Print output
 		System.out.println("Your total was: " + total);

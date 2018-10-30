@@ -5,39 +5,19 @@ import java.util.Scanner;
 public class Compute_average_classes {
 
 	public static void main(String[] args) {
-		final boolean A_B = false;
-		final boolean B_B = false;
-		final boolean C_B = false;
-		final boolean D_B = false;
-		final boolean F_B = false;
-			//Get the users scores
-			// Sum all scores
-			//Divide by total
-			// Display average
-			
 			Scanner input = new Scanner(System.in);
 			
 			//Classes
-			double creative_writing;
-			double english;
-			double chemistry;
-			double robotics;
-			double math;
-			double seminary;
-			double history;
-			double programming;
-			double sum;
-			double avg;
-			double gpa;
-			
-			boolean B_creative_writing;
-			boolean B_english;
-			boolean B_chemistry;
-			boolean B_robotics;
-			boolean B_math;
-			boolean B_seminary;
-			boolean B_history;
-			boolean B_programming;
+			int class1;
+			int class2;
+			int class3;
+			int class4;
+			int class5;
+			int class6;
+			int class7;
+			int class8;
+			int sum;
+			int avg;
 			
 			//Grades
 			int A;
@@ -45,7 +25,6 @@ public class Compute_average_classes {
 			int C;
 			int D;
 			int F;
-
 			
 			A = 100;
 			A = 90;
@@ -55,159 +34,338 @@ public class Compute_average_classes {
 			F = 50;
 			
 			//Display the question
-			System.out.println("Enter the grades (percentages) from your classes");
+			System.out.println("Enter the grades (percentages) from your classes (8)");
 			
-			creative_writing = input.nextDouble();
-			english = input.nextDouble();
-			chemistry = input.nextDouble();
-			robotics = input.nextDouble();
-			math = input.nextDouble();
-			seminary = input.nextDouble();
-			history = input.nextDouble();
-			programming = input.nextDouble();
+			class1 = input.nextInt();
+			class2 = input.nextInt();
+			class3 = input.nextInt();
+			class4 = input.nextInt();
+			class5 = input.nextInt();
+			class6 = input.nextInt();
+			class7 = input.nextInt();
+			class8 = input.nextInt();
 			
 			//Calculate the sum
-			sum = creative_writing+english+chemistry+robotics+
-					math+seminary+history+programming;
+			sum = class1+class2+class3+class4+class5+class6+class7+class8;
 				
 			//Calculate the average 
 			avg = sum / 8;
 			
-			//Calculate gpa
-			if (B_creative_writing = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_creative_writing = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_creative_writing = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_creative_writing = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_creative_writing = F_B) {
-				System.out.println("You got an F in creative writing");
-			}
-			//
-			if (B_english = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_english = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_english = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_english = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_english = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_chemistry = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_chemistry = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_chemistry = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_chemistry = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_chemistry = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_robotics = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_robotics = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_robotics = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_robotics = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_robotics = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_math = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_math = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_math = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_math = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_math = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_seminary = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_seminary = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_seminary = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_seminary = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_seminary = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_history = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_history = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_history = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_history = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_history = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			//
-			if (B_programming = A_B ) {
-				System.out.println("You got an A in creative writing");
-			}
-			else if (B_programming = B_B) {
-				System.out.println("You got a B in creative writing");
-			}
-			else if (B_programming = C_B) {
-				System.out.println("You got a C in creative writing");
-			}
-			else if (B_programming = D_B) {
-				System.out.println("You got a D in creative writing");
-			}
-			else if (B_programming = F_B) {
-				System.out.println("You got an F in creative writing");
-			}	
-			
-			
 			//Display the total
 			System.out.println("Your average grade is: "+ avg);
 			
-			//To get gpa you need to assign each number their value, and then you need to use a long if else statement for each subject
-
+			// Display the letter grade
+			// It would have been better to use an if statement
+			
+			switch (avg % 100) {
+			case 100:
+				System.out.println("You got an A");
+				break;
+			case 99:
+				System.out.println("You got an A");
+				break;
+			case 98:
+				System.out.println("You got an A");
+				break;
+			case 97:
+				System.out.println("You got an A");
+				break;
+			case 96:
+				System.out.println("You got an A");
+				break;
+			case 95:
+				System.out.println("You got an A");
+				break;
+			case 94:
+				System.out.println("You got an A");
+				break;
+			case 93:
+				System.out.println("You got an A");
+				break;
+			case 92:
+				System.out.println("You got an A-");
+				break;
+			case 91:
+				System.out.println("You got an A-");
+				break;
+			case 90:
+				System.out.println("You got an A-");
+				break;
+			case 89:
+				System.out.println("You got a B+");
+				break;
+			case 88:
+				System.out.println("You got a B+");
+				break;
+			case 87:
+				System.out.println("You got a B+");
+				break;
+			case 86:
+				System.out.println("You got a B");
+				break;
+			case 85:
+				System.out.println("You got a B");
+				break;
+			case 84:
+				System.out.println("You got a B");
+				break;
+			case 83:
+				System.out.println("You got a B");
+				break;
+			case 82:
+				System.out.println("You got a B-");
+				break;
+			case 81:
+				System.out.println("You got a B-");
+				break;
+			case 80:
+				System.out.println("You got a B-");
+				break;
+			case 79:
+				System.out.println("You got a C+");
+				break;
+			case 78:
+				System.out.println("You got a C+");
+				break;
+			case 77:
+				System.out.println("You got a C+");
+				break;
+			case 76:
+				System.out.println("You got a C");
+				break;
+			case 75:
+				System.out.println("You got a C");
+				break;
+			case 74:
+				System.out.println("You got a C");
+				break;
+			case 73:
+				System.out.println("You got a C");
+				break;
+			case 72:
+				System.out.println("You got a C-");
+				break;
+			case 71:
+				System.out.println("You got a C-");
+				break;
+			case 70:
+				System.out.println("You got a C-");
+				break;
+			case 69:
+				System.out.println("You got a D+");
+				break;
+			case 68:
+				System.out.println("You got a D+");
+				break;
+			case 67:
+				System.out.println("You got a D+");
+				break;
+			case 66:
+				System.out.println("You got a D");
+				break;
+			case 65:
+				System.out.println("You got a D");
+				break;
+			case 64:
+				System.out.println("You got a D");
+				break;
+			case 63:
+				System.out.println("You got a D");
+				break;
+			case 62:
+				System.out.println("You got a D");
+				break;
+			case 61:
+				System.out.println("You got a D");
+				break;
+			case 60:
+				System.out.println("You got a D");
+				break;
+			case 59:
+				System.out.println("You got a F");
+				break;
+			case 58:
+				System.out.println("You got a F");
+				break;
+			case 57:
+				System.out.println("You got a F");
+				break;
+			case 56:
+				System.out.println("You got a F");
+				break;
+			case 55:
+				System.out.println("You got a F");
+				break;
+			case 54:
+				System.out.println("You got a F");
+				break;
+			case 53:
+				System.out.println("You got a F");
+				break;
+			case 52:
+				System.out.println("You got a F");
+				break;
+			case 51:
+				System.out.println("You got a F");
+				break;
+			case 50:
+				System.out.println("You got a F");
+				break;
+			case 49:
+				System.out.println("You got a F");
+				break;
+			case 48:
+				System.out.println("You got a F");
+				break;
+			case 47:
+				System.out.println("You got a F");
+				break;
+			case 46:
+				System.out.println("You got a F");
+				break;
+			case 45:
+				System.out.println("You got a F");
+				break;
+			case 44:
+				System.out.println("You got a F");
+				break;
+			case 43:
+				System.out.println("You got a F");
+				break;
+			case 42:
+				System.out.println("You got a F");
+				break;
+			case 41:
+				System.out.println("You got a F");
+				break;
+			case 40:
+				System.out.println("You got a F");
+				break;
+			case 39:
+				System.out.println("You got a F");
+				break;
+			case 38:
+				System.out.println("You got a F");
+				break;
+			case 37:
+				System.out.println("You got a F");
+				break;
+			case 36:
+				System.out.println("You got a F");
+				break;
+			case 35:
+				System.out.println("You got a F");
+				break;
+			case 34:
+				System.out.println("You got a F");
+				break;
+			case 33:
+				System.out.println("You got a F");
+				break;
+			case 32:
+				System.out.println("You got a F");
+				break;
+			case 31:
+				System.out.println("You got a F");
+				break;
+			case 30:
+				System.out.println("You got a F");
+				break;
+			case 29:
+				System.out.println("You got a F");
+				break;
+			case 28:
+				System.out.println("You got a F");
+				break;
+			case 27:
+				System.out.println("You got a F");
+				break;
+			case 26:
+				System.out.println("You got a F");
+				break;
+			case 25:
+				System.out.println("You got a F");
+				break;
+			case 24:
+				System.out.println("You got a F");
+				break;
+			case 23:
+				System.out.println("You got a F");
+				break;
+			case 22:
+				System.out.println("You got a F");
+				break;
+			case 21:
+				System.out.println("You got a F");
+				break;
+			case 20:
+				System.out.println("You got a F");
+				break;
+			case 19:
+				System.out.println("You got a F");
+				break;
+			case 18:
+				System.out.println("You got a F");
+				break;
+			case 17:
+				System.out.println("You got a F");
+				break;
+			case 16:
+				System.out.println("You got a F");
+				break;
+			case 15:
+				System.out.println("You got a F");
+				break;
+			case 14:
+				System.out.println("You got a F");
+				break;
+			case 13:
+				System.out.println("You got a F");
+				break;
+			case 12:
+				System.out.println("You got a F");
+				break;
+			case 11:
+				System.out.println("You got a F");
+				break;
+			case 10:
+				System.out.println("You got a F");
+				break;
+			case 9:
+				System.out.println("You got a F");
+				break;
+			case 8:
+				System.out.println("You got a F");
+				break;
+			case 7:
+				System.out.println("You got a F");
+				break;
+			case 6:
+				System.out.println("You got a F");
+				break;
+			case 5:
+				System.out.println("You got a F");
+				break;
+			case 4:
+				System.out.println("You got a F");
+				break;
+			case 3:
+				System.out.println("You got a F");
+				break;
+			case 2:
+				System.out.println("You got a F");
+				break;
+			case 1:
+				System.out.println("You got a F");
+				break;
+			case 0:
+				System.out.println("You got a F");
+				break;
+			}
+			
+			
+			
+			
 	}
 
 }
