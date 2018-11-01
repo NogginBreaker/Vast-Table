@@ -9,8 +9,12 @@ public class Days_of_the_Week {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
+		// Prompt the user to enter in a day of the week
+		// Receive the users input
+		// Go through the If statements to find the day of the week
+		
 		// Receiving input
-		System.out.println("Enter in a day");
+		System.out.println("Enter in a day (number)");
 		int day = input.nextInt();
 		
 		int Sunday = 0;
@@ -44,7 +48,8 @@ public class Days_of_the_Week {
 		}
 		
 		
-		
+		// Could be improved with Strings
+		// Could be improved with Swtich Statements
 
 	}
 
