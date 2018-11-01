@@ -9,6 +9,12 @@ public class Swtich_statement {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
+		// Prompt the user to enter their birth year
+		// Receives the input from the user
+		// Use the users answer to sort them into a zodiac
+		// Alert the user about their zodiac
+		
+		
 		// Prompt the user to enter the year that they were born
 		System.out.println("Enter the year you were born: ");
 		int year = input.nextInt();

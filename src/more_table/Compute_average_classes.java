@@ -1,5 +1,8 @@
 package more_table;
-
+/*
+ * Zachary Moncur
+ * 10/30
+ */
 import java.util.Scanner;
 
 public class Compute_average_classes {
@@ -7,7 +10,14 @@ public class Compute_average_classes {
 	public static void main(String[] args) {
 			Scanner input = new Scanner(System.in);
 			
-			//Classes
+			// Prompt user to enter in the percentage grades of their classes
+			// Receive the percentage grades
+			// Calculate the sum of the percentage grades
+			// Receive the average grade from the percentage grade
+			// Divide the average grade to get the letter grade
+			// Receive the letter grade by using switch statements
+			
+			// Classes
 			int class1;
 			int class2;
 			int class3;
@@ -19,7 +29,7 @@ public class Compute_average_classes {
 			int sum;
 			int avg;
 			
-			//Grades
+			// Grades
 			int A;
 			int B;
 			int C;
@@ -33,7 +43,7 @@ public class Compute_average_classes {
 			D = 60;
 			F = 50;
 			
-			//Display the question
+			// Display the question
 			System.out.println("Enter the grades (percentages) from your classes (8)");
 			
 			class1 = input.nextInt();
@@ -45,18 +55,16 @@ public class Compute_average_classes {
 			class7 = input.nextInt();
 			class8 = input.nextInt();
 			
-			//Calculate the sum
+			// Calculate the sum
 			sum = class1+class2+class3+class4+class5+class6+class7+class8;
 				
-			//Calculate the average 
+			// Calculate the average 
 			avg = sum / 8;
 			
-			//Display the total
+			//Display the average grade
 			System.out.println("Your average grade is: "+ avg);
 			
 			// Display the letter grade
-			// It would have been better to use an if statement
-			
 			switch (avg % 100) {
 			case 100:
 				System.out.println("You got an A");

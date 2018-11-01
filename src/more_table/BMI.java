@@ -29,8 +29,6 @@ public class BMI {
 		
 		
 		//If statements
-		
-		//
 		if (age < 12 ) {
 			if (bmi < 15) {
 				System.out.println("Your bmi: "+bmi+" means youre underweight");
@@ -45,7 +43,7 @@ public class BMI {
 				System.out.println("Your bmi: "+bmi+" means youre obese");
 			}
 			}
-		//
+
 		else if (age <= 17) {
 			if (bmi < 14) {
 				System.out.println("Your bmi: "+bmi+" means youre underweight");

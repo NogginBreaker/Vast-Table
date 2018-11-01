@@ -9,23 +9,35 @@ public class Lottery {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
+		// Prompt the user to enter a number with two digits
+		// Generate random number
+		// Compare the digits to see if there is a match
+		// If there is a match proceed to if statements
+		// If there is no match, alert the user
+		
+		
 		// Generate a lottery number
 		int lottery = (int)(Math.random() * 100);
+		
 		
 		// Prompt the user for a guess
 		System.out.println("Enter your lottery pick (two digits): ");
 		int guess = input.nextInt();
 		
+		
 		// Get digits from the lottery
 		int lotteryDigit1 = lottery / 10;
 		int lotteryDigit2 = lottery % 10;
+		
 		
 		// Get digits from the guess
 		int guessDigit1 = guess / 10;
 		int guessDigit2 = guess % 10;
 		
+		
 		// Output
 		System.out.println("The lottery number is " + lottery);
+		
 		
 		// Outcomes
 		if (guess == lottery) {
@@ -45,6 +57,8 @@ public class Lottery {
 		}
 		
 
+		
+		
 	}
 
 }

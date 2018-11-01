@@ -1,6 +1,7 @@
 package more_table;
 /*
  * Zachary Moncur
+ * 10/18
  */
 import java.util.Scanner;
 
