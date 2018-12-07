@@ -14,7 +14,7 @@ public class Days_of_the_Week {
 		// Go through the If statements to find the day of the week
 		
 		// Receiving input
-		System.out.println("Enter in a day (number)");
+		System.out.println("Enter in a day (1-7)");
 		int day = input.nextInt();
 		
 		int Sunday = 0;
