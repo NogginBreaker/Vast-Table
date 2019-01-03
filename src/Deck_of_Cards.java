@@ -1,6 +1,9 @@
 
 public class Deck_of_Cards {
-
+/*
+ * Zachary Moncur
+ * 12/18/18
+ */
 	public static void main(String[] args) {
 		
 		// Building the arrays
